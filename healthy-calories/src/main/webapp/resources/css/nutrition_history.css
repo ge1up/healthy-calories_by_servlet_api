@@ -1,0 +1,75 @@
+body {
+    width: 80%;
+    margin: auto;
+}
+
+.container {
+    width: 60%;
+    margin: auto;
+    text-align: center;
+}
+
+form {
+    margin-top: 16px;
+}
+
+label {
+    font-family: 'Open Sans', sans-serif;
+    display: block;
+    margin-bottom: 5px;
+}
+
+select {
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    padding: 8px;
+    font-size: 16px;
+}
+
+.dish-card {
+    display: flex;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    overflow: hidden;
+    width: 100%;
+    margin-top: 20px;
+}
+
+/* Стили для изображения блюда */
+.dish-image {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+}
+
+/* Стили для информационной части блюда */
+.dish-info {
+    width: 100%;
+    padding: 10px;
+}
+
+/* Стили для названия блюда */
+.dish-title {
+    padding-right: 80px;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.dish-total-title {
+    padding-right: 0;
+}
+
+/* Стили для калорийности блюда */
+.dish-options {
+    width: 90%;
+    margin: auto;
+    font-size: 14px;
+    color: #888;
+    display: flex;
+    justify-content: space-between;
+}
+
+.dish-option {
+
+}

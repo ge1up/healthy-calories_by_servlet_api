@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome Page</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            background-color: #4CAF50; /* Зеленый фон */
+        }
+
+        #welcome-container {
+            text-align: center;
+            opacity: 1;
+            transition: opacity 0.5s ease-in-out;
+        }
+
+        #profile-img {
+            width: 400px; /* Ширина изображения */
+            height: 400px; /* Ширина изображения */
+        }
+    </style>
+</head>
+<body>
+<div id="welcome-container">
+    <img id="profile-img" src="resources/img/10.png" alt="Profile Image">
+</div>
+
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+        setTimeout(function() {
+            var welcomeContainer = document.getElementById('welcome-container');
+            welcomeContainer.style.opacity = 0;
+            setTimeout(function() {
+                checkSessionAndRedirect();
+            }, 500); // Ждем 0.5 секунды перед перенаправлением
+        }, 500); // Ждем 0.5 секунды перед началом исчезновения
+    });
+
+    function checkSessionAndRedirect() {
+        window.location.href = 'sign-in';
+    }
+</script>
+</body>
+</html>

@@ -1,0 +1,81 @@
+body {
+    margin: 0;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+.center-content {
+    width: 90%;
+    margin: auto;
+}
+
+.profile-container {
+    margin-top: 20px;
+}
+
+#profile {
+
+}
+
+.profile-info {
+    display: flex;
+    justify-content: center;
+}
+
+.user-info-text {
+    margin-left: 10px;
+}
+
+.user-info {
+    margin-top: 19px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.settings-buttons {
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.settings-buttons form {
+}
+
+.settings-buttons button {
+    cursor: pointer;
+}
+
+.change-button {
+    font-size: 20px;
+    border: 1px solid green;
+    border-radius: 5px;
+    background-color: green;
+    color: white;
+}
+
+.sign-out-button {
+    font-size: 20px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    background-color: gray;
+    color: white;
+}
+
+.delete-button {
+    font-size: 20px;
+    border: 1px solid red;
+    border-radius: 5px;
+    background-color: red;
+    color: white;
+}
+
+#favorite_dish {
+    text-align: center;
+    justify-content: center;
+    margin-top: 30px;
+}
